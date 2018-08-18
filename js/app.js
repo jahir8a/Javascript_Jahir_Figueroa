@@ -16,8 +16,6 @@ var Calculadora=(function(){
 		var resultado = 0;
 		
 		
-		var elementos = ["0","1","2","3","4","5","6","7","8","9","mas","por","menos","dividido","punto","sign","on","raiz","igual"];
-		 
 		var suscribirseAEventos = function(){
 		document.getElementById("0").addEventListener("click",mostrarEnPantalla,false);
 		document.getElementById("1").addEventListener("click",mostrarEnPantalla,false);
@@ -302,7 +300,6 @@ function mostrarEnPantalla(tecla){
 		
 		
 	})();
-//function init(){}
 
 
 window.onload=function(){
